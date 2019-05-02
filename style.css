@@ -6,13 +6,12 @@ div {
 
 p {
     color: aliceblue;
-    width: 100%;
-    min-width: 100px;
-    max-width: 500px;
     margin: auto;
     padding: 10px;
+    width: 80%;
     font-family: monospace;
     font-weight: bolder;
+    font-size: 35px;
     border-radius: 10px;
     background-image: linear-gradient(#33d34c, #88d89d);
 }
