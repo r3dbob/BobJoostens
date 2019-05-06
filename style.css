@@ -1,30 +1,52 @@
+@font-face {
+    font-family: "BOB";
+    src: url("fonts/Roboto-Thin.ttf")
+}
+    
 body {
-    background-color: crimson;
+    background: url('img/Room_wall.png') no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
 }
 
-div {
-    margin-top: 20px;
-    display: grid;
-    height: 100%;
+#ct {
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 50%;
+    left: 50%; 
+    -webkit-transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 15px;
+    padding: 18px;
+    text-align: center;
+    color: white;
+    float: none;
 }
 
-p {
-    color: aliceblue;
-    margin: auto;
-    padding: 30px;
-    width: 80%;
-    font-family: monospace;
-    font-weight: bolder;
-    font-size: 35px;
-    border-radius: 25px;
-    background-image: linear-gradient(#33d34c, #88d89d);
+h1, p {
+    font-family: "BOB", "Roboto", sans-serif;
+    margin-bottom: 2px;
+    margin-top: 0px;
 }
 
 img {
-    top: 50%;
-    max-width: 30%;
-    left: 50%; 
-    -webkit-transform: translate(-50%, -50%);
-    max-height: 75%;
-    position: absolute;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 8px;
+    transition-property: border-color;
+    transition-duration: 0.4s;
+}
+
+img:hover {
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 15px;
 }
