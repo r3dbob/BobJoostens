@@ -7,6 +7,15 @@
   src: url(fonts/Roboto-Thin.ttf);
 }
 
+html{
+    margin: 0px;
+    border-style: solid;
+    border-color: black;
+    border-width: 7px;
+    border-bottom-width: 0px;
+    overflow-x: hidden;
+}
+
 body{
     margin: 0px;
     background-color: #f0f0f0;
@@ -15,10 +24,11 @@ body{
 #top, #footer {
     background-color: black;
     color: white;
+    overflow: hidden;
 }
 
 #top {
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .content{
@@ -68,6 +78,7 @@ a:hover {
 #info{
     text-align: left !important;
     font-size: 16px;
+    margin-top: 50px;
 }
 
 p {
