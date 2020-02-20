@@ -9,10 +9,12 @@
 
 html{
     margin: 0px;
+/*
     border-style: solid;
     border-color: black;
     border-width: 7px;
     border-bottom-width: 0px;
+*/
     overflow-x: hidden;
 }
 
