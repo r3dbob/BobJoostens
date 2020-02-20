@@ -26,54 +26,62 @@
     <meta name="author" content="Bob Joostens">
     <link rel="icon" href="img/fav.png" type="image/x-icon">
     <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="randomHomeIMG.js"></script>
 </head>
 
 <body>
     <div id="top">
         <h1>bobjoostens</h1>
     </div>
+    <div id="homeIMG_Container"><img id="homeIMG" width="100%"></div>
     <p class="content" id="info">
-        <b>MY PORTFOLIOWEBSITE IS UNDER CONSTRUCTION: Most project links will lead to a temporary "coming soon" page.</b><br>
-        3D-graphics, Photography and Cinematography by Bob Joostens. I'm born and raised in Antwerp (BE). Currently studying the 3D Productions and VFX major at DAE in Kortrijk (BE). Welcome to my portfoliosite.
+        3D-graphics, Photography and Cinematography by Bob Joostens. <br>
+        I'm born and raised in Antwerp (BE). Currently studying the 3D Productions and VFX major at DAE in Kortrijk (BE). Welcome to my portfoliosite.
     </p>
     <hr class="content">
     <h2>PICK A PROJECT</h2>
-    <div class="categCont">
         <div class="content">
-            <div class="category" id="PHOTO">
-                <h2>PHOTO</h2>
-                <a class="project" href="street.html">Street</a>
-                <hr class="hide">
-                <a class="project" href="portrait.html">Portrait</a>
-                <hr class="hide">
-                <a class="comingsoon" href="comingSoon.html">Other</a>
-                <hr class="hide">
+            <div class="category">
+            <h2>PHOTO</h2>
+                <div class="categField" id="PHOTO">
+                    <a class="project" href="street.html">Street</a>
+                    <hr class="hide">
+                    <a class="project" href="portrait.html">Portrait</a>
+                    <hr class="hide">
+                    <a class="project" href="photo.html">Other</a>
+                    <hr class="hide">
+                </div>
             </div>
             <div class="category" id="VIDEO">
                 <h2>VIDEO</h2>
-                <a href="shorts.html">Shorts</a>
-                <hr class="hide">
-                <a href="experiment.html">Experiment</a>
-                <hr class="hide">
-                <a class="comingsoon" href="comingSoon.html">Other</a>
-                <hr class="hide">
+                <div class="categField">
+                    <a href="shorts.html">Shorts</a>
+                    <hr class="hide">
+                    <a href="experiment.html">Experiment</a>
+                    <hr class="hide">
+                    <a class="comingsoon">Other</a>
+                    <hr class="hide">
+                </div>
             </div>
-            <div class="category" id="OTHER">
-                <h2>OTHER</h2>
-                <a class="project" href="painting.html">Painting</a>
-                <hr class="hide">
-                <a class="comingsoon" href="comingSoon.html">Drawing</a>
-                <hr class="hide">
-            </div>
-            <div class="category" id="DAE">
+            <div class="category">
                 <h2>DAE</h2>
-                <a class="project" href="prepro1.html">PrePro1</a>
-                <hr class="hide">
-                <a class="project" href="3DLowPoly.html">3D-LowPoly</a>
-                <hr class="hide">
+                <div class="categField" id="DAE">
+                    <a class="project" href="prepro1.html">PrePro1</a>
+                    <hr class="hide">
+                    <a class="project" href="3DLowPoly.html">3D-LowPoly</a>
+                    <hr class="hide">
+                </div>
+            </div>
+            <div class="category">
+                <h2>OTHER</h2>
+                <div class="categField" id="OTHER">
+                    <a class="project" href="painting.html">Painting</a>
+                    <hr class="hide">
+                    <a class="comingsoon">3D-Personal</a>
+                    <hr class="hide">
+                </div>
             </div>
         </div>
-    </div>
     <div id="footer">
         <p id="contact">&copy; Bob Joostens, 2020 | crea-bob@hotmail.com</p>
     </div>
