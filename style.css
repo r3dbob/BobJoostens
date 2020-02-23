@@ -125,3 +125,9 @@ p {
     margin-top: 50px;
     bottom: 0;
 }
+
+#pizza{
+    margin-top: 50px;
+    margin-bottom: 40vh;
+    width: 30%;
+}
