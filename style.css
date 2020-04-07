@@ -41,7 +41,7 @@ body{
 }
 
 #logo{
-    width: 500px;
+    width: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -130,4 +130,26 @@ p {
     margin-top: 50px;
     margin-bottom: 40vh;
     width: 30%;
+}
+
+#waneejtie {
+    width: 99%;
+}
+
+#waneejtie:hover {
+    background-color: #3ee845;
+}
+
+#waneejtielogo {
+    display: block;
+    margin: auto;
+}
+
+#mail {
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Roboto-L, sans-serif;
+    text-decoration: none;
+    color: #fff;
 }
