@@ -95,27 +95,12 @@ p {
     font-size: 16px;
 }
 
-.category {
-    overflow: hidden;
-    display: inline-grid;
-    width: 49%;
-    margin: 0px;
-    margin-bottom: 5px;
-    background-color: black;
-    border-radius: 6px;
-    color: white !important;
-}
-
-.categField {
-    padding-top: 15px;
-    text-align: center;
-    background-color: white;
-    color: black;
-}
-
-
 .hide {
     visibility: hidden;
+}
+
+.project {
+    text-align: center !important;
 }
 
 #footer {
@@ -124,25 +109,6 @@ p {
     padding-top: 50px;
     margin-top: 50px;
     bottom: 0;
-}
-
-#pizza{
-    margin-top: 50px;
-    margin-bottom: 40vh;
-    width: 30%;
-}
-
-#waneejtie {
-    width: 99%;
-}
-
-#waneejtie:hover {
-    background-color: #3ee845;
-}
-
-#waneejtielogo {
-    display: block;
-    margin: auto;
 }
 
 #mail {
