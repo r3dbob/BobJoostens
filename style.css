@@ -81,7 +81,14 @@ a:hover {
 #info{
     text-align: left !important;
     font-size: 16px;
-    margin-top: 4vw;
+}
+#intro{
+    background-color: black;
+    color: #d4d4d4;
+}
+#greeting, #time {
+    font-size: 20px;
+    margin: 0px;
 }
 
 p {
