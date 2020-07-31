@@ -93,8 +93,15 @@ p {
     visibility: hidden;
 }
 
-.project {
-    text-align: center !important;
+a.project, a.social {
+    display: block;
+    margin: auto;
+}
+a.social {
+    color: #d4d4d4;
+}
+a.social:hover {
+    color: #747474;
 }
 
 #footer {
