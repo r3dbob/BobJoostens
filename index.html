@@ -28,6 +28,7 @@
     <meta name="author" content="Bob Joostens">
     <link rel="icon" href="img/fav.png" type="image/x-icon">
     <link href="style.css" rel="stylesheet">     <link href="normalize.css" rel="stylesheet">
+<!--    <script type="text/javascript" src="post/random.js"></script>-->
 </head>
 
 <body>
@@ -68,19 +69,8 @@
         </div>
     </div>
 <!--
-    <div id="intro">
-        <br>
-        <h1 id="greeting"></h1>
-        <script>
-            document.getElementById('greeting').innerHTML = new Date().getHours() >= 12 ? "Welcome to my portfoliosite, you're late, why did it take you so long?" : 'Welcome to my portfoliosite, what takes you here so early... go back to sleep!';
-        </script>
-        <h1 id="time"></h1>
-        <script>
-            var date = new Date();
-            var minutes = (date.getMinutes()<10?'0':'') + date.getMinutes()
-            document.getElementById('time').innerHTML = new Date().getHours() + ":" + minutes;
-        </script>
-        <br>
+    <div id="postBlock">
+        <embed class="content" id="post" src="post/post.txt">
     </div>
 -->
     <br>
@@ -118,10 +108,12 @@
         }
     </script>
     <br>
-    <p class="content" id="info">
+    <div class="content" id="info">
+        <p>
         3D-graphics, Photography and Cinematography by Bob Joostens.<br>
         I graduated in <b>Multimedia</b> design in july 2019. Currently I'm studying the 3D Productions and VFX major at <b>DAE</b> in Kortrijk (BE).<br>My portfolio is a collection of my work in multiple creative disciplines.<br>Since I was a kid I have always been spending my time on creative projects.<br><b>Feel free to take a look around.</b><br><br>
     </p>
+    </div>
     <hr class="content">
     <hr class="hide">
     <div class="content">
