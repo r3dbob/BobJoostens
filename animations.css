@@ -1,0 +1,60 @@
+@keyframes slideOut{
+    from {transform: translate(0px);}
+    to {transform: translate(0px, 100vh);}
+}
+@keyframes slideIn{
+    from {transform: translate(0px, -100vh);}
+    to {transform: translate(0px);}
+}
+@keyframes slideL{
+    from {transform: translate(-100%);}
+    to {transform: translate(0px);}
+}
+@keyframes slideOutL{
+    from {transform: translate(0px);}
+    to {transform: translate(-100%);}
+}
+@keyframes slideOutR{
+    from {transform: translate(0px);}
+    to {transform: translate(100%);}
+}
+@keyframes slideR{
+    from {transform: translate(100%);}
+    to {transform: translate(0px)}
+}
+@keyframes fadeIn{
+    from{opacity: 0;}
+    to {opacity: 1}
+}
+@keyframes fadeOut{
+    from{opacity: 1;}
+    to {opacity: 0}
+}
+@keyframes ovAnimIn{
+    from{height: 0px;}
+    to{height: 100vh;}
+}
+@keyframes sy {
+    from{height: 0px;}
+    to{height: 20px;}
+}
+
+.ovIn {
+    animation: ovAnimIn 0.7s;
+    animation-fill-mode: both;
+}
+
+#header {
+    animation: slideL 1.2s, fadeIn 0.8s ease 0.3s;
+    animation-fill-mode: both;
+}
+
+#footer {
+    animation: slideR 1.2s, fadeIn 0.8s ease 0.3s;
+    animation-fill-mode: both;
+}
+
+.animOut {
+    animation: slideOut 1s, fadeOut 0.5s; 
+    animation-fill-mode: both; 
+}
