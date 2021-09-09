@@ -5,14 +5,14 @@
 
 html {
     height: calc(100vh - 20px);
-    overflow: hidden;
+    overflow-x: hidden;
     user-select: none;
 }
 
 body {
     background-color: #fff;
     margin: 0px;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 #main {
